@@ -1,0 +1,9 @@
+.navBar {
+  margin: 55px 35px;
+}
+@media (max-width: 545px) {
+  .navBar {
+    margin: 20px 15px;
+    margin-bottom: 50px;
+  }
+}

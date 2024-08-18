@@ -1,0 +1,21 @@
+.headingWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainHeading {
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+@media (max-width: 545px) {
+  .mainHeading {
+    font-size: 28px;
+  }
+}
